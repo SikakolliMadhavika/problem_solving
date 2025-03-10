@@ -397,11 +397,10 @@
 
 # list1 = [1,23, 2.43, True, False]
 # def printingvalueinlist(number):
-#     if(number>=0 and number<len(list1)):
-#         return (list1[number])
-#     elif(number<=-1 and number>=-(len(list1))):
+#     if(number>=-(len(list1)) and number<len(list1)):
 #         return (list1[number])
 #     return "Invalid input"
 # print(printingvalueinlist(5))
-# print(printingvalueinlist(-6))
+# print(printingvalueinlist(-5))
+
 
